@@ -1,0 +1,180 @@
+* { margin: 0; padding: 0 }
+body { font: 12px "宋体", "Arial Narrow", HELVETICA; color: #3F3E3C; line-height: 1.5; background:#333; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+h1 { font: 24px "微软雅黑", "Microsoft YaHei", Arial, Helvetica, sans-serif }
+p { word-wrap: break-word }
+ul, ol { list-style: none; }
+a { color: #a6a6a6; text-decoration: none; transition: All 1s ease; -webkit-transition: All 1s ease; -moz-transition: All 1s ease; -ms-transition: All 1s ease; -o-transition: All 1s ease; }
+a:hover { color: #fff; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* 这是一段导航代码*/
+header{
+    line-height: 50px;
+    height: 68px;
+    color: #000;
+    text-align: center;
+    background: url("7065230ad9fe0e846f902db49278f057(1).jpg")0 -331px ;
+    background-size: 100%,50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    box-shadow: #333 0 0 2px;/*box-shadow 属性向框添加一个或多个阴影。*/
+}
+header nav{
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    padding-top: 15px;
+}
+header nav ul li{
+    line-height: 40px;
+    display: inline;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #E7E7E7;
+    display: block;
+    padding: 0 20px;
+    margin-right: 12px;
+    float: left;
+    font-size: 16px;
+}
+/*这是内容区域*/
+#main_body {
+    width: 100%;
+    border-top: #000 1px solid;
+    clear: both;
+    overflow: hidden;
+}
+.info {
+    width: 1000px;
+    margin: 115px auto;
+    overflow: hidden;
+    clear: both;
+}
+.info figure {
+    display: inline-block;
+    width: 630px;
+    height: 250px;
+    position: relative;
+    animation: pageTop 6s ease 0.5s backwards;
+    float: left;
+}
+img {
+    border: 0;
+    vertical-align: middle;
+}
+.info figcaption {
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+    background: rgba(153,153,153,.8);
+    color: white;
+    opacity: 0;
+    transition: opacity .75s ease-out;
+}
+.info figcaption strong {
+    display: block;
+    line-height: 40px;
+}
+.card {
+    box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(0,0,0,.7);
+    border-radius: 6px;
+    width: 350px;
+    float: right;
+    height: 250px;
+    overflow: hidden;
+}
+.card h1 {
+    padding: 10px;
+}
+.card p {
+    padding: 0 0 0 40px;
+    line-height: 28px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+    color: #89919a;
+    animation: animations2 5s ease-in-out 5s;
+}
+.link_more {
+    margin: 15px 0 0 15px;
+}
+.link_more li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    overflow: hidden;
+    box-shadow: 0 1px 0 rgba(255,255,255,.1), inset 0 1px 1px rgba(0,0,0,.7);
+    border-radius: 50%;
+    float: left;
+    margin: 0 6px;
+}
+.talk, .address, .email, .photos, .heart {
+    background: url(100375301.jpg) no-repeat;
+    background-size: 225px;
+}
+.talk {  background-position: -19px -112px;  }
+.address { background-position: -63px -65px }
+.email { background-position: -19px -66px }
+.photos { background-position: -20px -160px }
+.heart { background-position: -63px -112px }
+/*.blank {*/
+    /*height: 5px;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+    /*margin: auto;*/
+    /*clear: both;*/
+/*}*/
+.blog_list {
+    width: 834px;
+    float: left;
+    position: relative;
+    margin: -138px -42px;
+    height: 1260px;
+}
+.blog_list>li {
+    padding: 20px 30px;
+}
+aside {
+    width: 351px;
+    float: right;
+    margin: -69px 171px 20px 5px;
+}
+aside .bia{
+    box-shadow: 0 1px 0 rgba(255,255,255,.1), inset 0 1px 1px rgba(0,0,0,.7);
+    border-radius: 6px;
+    padding: 15px;
+    background: #222;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 295px;
+    position: relative;   /*父元素相对定位*/
+
+}
+aside .bai {
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+}
+
+aside h2, footer h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+#ull{
+    height: 295px;
+    overflow: hidden;
+}
+#ull li{
+    box-shadow: 0 1px 0 rgba(255,255,255,.1), inset 0 1px 1px rgba(0,0,0,.7);
+    border-bottom: 1px dashed #999;
+    padding: 4px;
+    list-style: none;
+    overflow: hidden;
+    /*透明度设置为0*/
+    filter:alpha(opacity:0);
+}
+
+
